@@ -1,0 +1,67 @@
+/* BUTTONS */
+
+@mixin styleButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    margin-right: -250px;
+    width: 350px;
+    height: 100px;
+    transition: 0.8s ease-out;
+}
+
+.bodyButtons{
+    overflow-x: hidden;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.facebook{
+    @include styleButton;
+    background-color: #3b5998;
+}
+
+.blog{
+    @include styleButton;
+    background-color: #e17b77;
+}
+
+.twitter{
+    @include styleButton;
+    background-color: #00aced;
+}
+
+.github{
+    @include styleButton;
+    background-color: #333;
+}
+
+.linkedin{
+    @include styleButton;
+    background-color: #007bb6;
+}
+
+.imgButtons{
+    margin-top: 10px;
+    margin-left: 10px;
+    color:white;
+}
+
+.textButtons{
+    color: white;
+    margin-top: 35px;
+    margin-left: 50px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.facebook:hover, .blog:hover, .twitter:hover, .github:hover, .linkedin:hover{
+    transform: translateX(-250px);
+}
+
+
+
