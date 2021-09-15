@@ -3,6 +3,8 @@ Opleiding: Full Stack Developer
 Opleider: Winc Academy
 Periode: augustus 2021
 
+Feedback video: https://vimeo.com/598188424/73cd76191b (Opdracht gehaald na aanpassing op feedback)
+
 
 Algemene requirements
 Maak voor elk onderdeel gebruik van de SCSS principes die je hebt geleerd.
